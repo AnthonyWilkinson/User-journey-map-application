@@ -1,3 +1,4 @@
-# User-journey-map-application
-User journey mapping application which I made for my dissertation during my last year of university. 
-This copy can be edited and changed according to recent thoughts of the design and development.
+# User journey mapping tool
+Northumbria University final year project
+
+This project was inspired from working with HMRC on my placement year. The designers had issues around using user journeys maps and how they should create them. With no one way of designers meeting their own goals of using a user journey map tool, they started to create their own versions whether this would be excel, free software or anything else. HMRC didn't want to buy expensive licences for designers to use the top range software which would allow them to create personas, user journey maps also export them to share with external stakeholders. The option to share the project with other designers was also a difficulty along with re-ranging the content layout on the user journey maps. All of these changes would take time out of the designers problem solving time.

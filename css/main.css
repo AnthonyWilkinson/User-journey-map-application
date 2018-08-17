@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    font: 14px/1 'Open Sans', sans-serif;
+    color: #555;
+    background: #eee;
+}
+
+.image-background {
+    background: url(../images/background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.stripe {
+    background: rgba(242, 242, 242, 0.95);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 10%;
+    width: 20%;
+    height: 100%;
+    padding: 15vh 4rem 4rem 4rem;
+    color: black;
+
+}
+
+.button {
+    background-color: #373d46;
+    border: none;
+    color: white;
+    padding: 2.5% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 25px 0 0 0;
+    cursor: pointer;
+    float: right;
+    clear: both;
+
+}
+
+h2 {
+    width: 60%;
+    margin-top: 3%;
+    float: right;
+}
+
+.float-right {
+    float: right;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    float: right;
+    margin-bottom: 5%;
+}
+
+input[type="password"] {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    float: right;
+    margin-bottom: 5%;
+}
+
+.loginRegInput {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2e3238;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: white;
+}
+
+.sidenav li {
+    list-style-type: none;
+}
+
+main {
+    background-color: white;
+    width: 85%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 3% 3%;
+    font-weight: 400;
+}
+
+.project-contain {
+    width: 80%;
+    background-color: #bbb;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 1%;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.project-name, .project-desc {
+    padding: 2px;
+}
+
+p {
+    text-align: justify;
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+.project-button {
+    background-color: #373d46;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    color: white !important;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 1em;
+    margin: 25px 0 0 5%;
+    cursor: pointer;
+}
+
+.project-button-2 {
+    background-color: #373d46;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    clear: both;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.ErrorMessages {
+    border: 1px solid;
+    margin-right: 3%;
+    margin-top: 2%;
+    float: right;
+    padding: 10px 10px 10px 50px;
+    background-color: #FFCCCC;
+    width: 90%;
+    margin-bottom:2%;
+}
+
+.ErrorMessagesLogin {
+    border: 1px solid;
+    margin-right: 3%;
+    margin-top: 2%;
+    float: right;
+    padding: 10px 10px 10px 50px;
+    background-color: #FFCCCC;
+    width: 50%;
+}
+
+.projectInput {
+    width: 57%;
+    height: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    margin: auto 0;
+}
+
+.projectTextarea {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+}
+
+.projectForm {
+    margin-left: 30%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+
+.submitButton {
+    background-color: #373d46;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;;
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 25px 0 0 0;
+    cursor: pointer;
+
+}
+
+textarea {
+    width: 57%;
+    height:160px;
+}
+
+.h1_margin {
+    margin-left:30%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 5%;
+}
+
+#usersTable {
+    border-collapse: collapse;
+    width: 100%;
+!important;
+    margin-left: 0;
+!important;
+    padding-bottom: 5%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;;
+}
+
+.hiddenInput {
+    display: none;
+}
+
+section {
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+    display: block;
+}
+
+.halfContainer {
+    width: 50%;
+    padding: 2.5%;
+    padding-bottom: 2em;
+    padding-top: 0;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+
+.labelOverivew {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+.labelOverivew:before {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.labelOverivew:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+#tab1:checked + label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid orange;
+    border-bottom: 1px solid #fff;
+}
+
+#tab2:checked + label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid orange;
+    border-bottom: 1px solid #fff;
+}
+
+#projectOverallContainer {
+    width: 100%;
+    margin-left: 3px;
+    background: #bbb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 1%;
+    display: block;
+    float: left;
+    margin-top: 3%;
+}
+
+.actionButtons {
+    background-color: #373d46;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 0 1%;
+    cursor: pointer;
+    color: white;
+    float: right;
+}
+
+#personaNameLabel {
+    width: 75%;
+    margin: 0;
+    float: left;
+    text-align: left;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    float: left;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+#padding-email {
+    padding-top: 1%;
+}
+
+.row {
+    width: 100%;
+    float: right;
+
+}
+
+.profilePic {
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 5px 3px #ccc;
+}
+
+.personaForm {
+    width: 100%;
+    float: left;
+    position: absolute;
+    margin-top: 2%;
+
+}
+
+.personaInput {
+    width: 97% !important;
+    float: left !important;
+    height: 20px !important;
+    margin-left: 2% !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ageInput {
+    width: 22%;
+    float: left;
+    height: 20px;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.dropdowninput {
+    width: 22.5%;
+    float: left;
+    height: 25px;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 99%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.motivationsDiv {
+    width: 40%;
+    margin-left: 3%;
+    border: thin black solid;
+    clear: both;
+    margin-bottom: 2%;
+    float: left;
+}
+
+.textAreaPersona {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 100px;
+}
+
+.section {
+    clear: both;
+    padding: 0;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+/*.col:first-child {*/
+/*margin-left: 8%;*/
+/*}*/
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.span_1_of_2 {
+    width: 34.5%;
+    border: thin black;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    padding: 1%;
+}
+
+.span_2_of_2 {
+    width: 72.5%;
+    border: thin black;
+    box-shadow: 5px 5px 5px 3px #ccc;
+    padding: 1%
+}
+
+.span_3 {
+    width: auto;
+}
+
+.span_4 {
+    width: 54.5%;
+    border: thin black;
+    box-shadow: 5px 5px 5px 3px #ccc;
+    padding: 1%
+}
+
+.span_5 {
+    width: 72%;
+}
+
+#personaFirstSection {
+    margin-top: 2%;
+}
+
+.marginLeftPersona {
+    margin-left: 19.5%;
+}
+
+.personaLabel {
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.personaLabel2 {
+    margin-left: 2.5%;
+    font-weight: bold;
+}
+
+.padding1 {
+    padding: 1%;
+}
+
+.buttonPersona {
+    background-color: #373d46;
+    border: none;
+    color: white;
+    padding: 2.5% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    float: right;
+}
+
+h3 {
+    float: left;
+    width: 70%;
+}
+
+.motivationsinput {
+    width: 70%;
+    float: left;
+    height: 20px;
+    margin-left: 2%;
+    clear: both;
+}
+
+.remove_field {
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.h2Persona {
+    font-size: 30px;
+}
+
+.profile-img-container:hover {
+    opacity: 0.5;
+    z-index: 501;
+}
+
+.profile-img-container {
+    width: 50%;
+}
+
+.profile-img-container img:hover {
+    opacity: 0.5;
+    z-index: 501;
+}
+
+.profile-img-container img:hover + i {
+    display: block;
+    z-index: 500;
+}
+
+#uploadfile {
+    display: none;
+}
+
+.profile-img-container i {
+    display: none;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 40%;
+}
+
+.deleteX {
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    float: left;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    background-color: white;
+}
+
+/*header img {*/
+/*width: 10%;*/
+/*float: left;*/
+/*}*/
+
+.DescriptionPersona {
+    width: 90%;
+    float: left;
+}
+
+.userjourneydetails {
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 0%;
+    font-size: 10px;
+}
+
+.newLane {
+    width: 53%;
+    margin-left: 4%;
+    margin-top: 3%;
+    padding: 1%;
+    float: left;
+    border: dotted 1px black;
+}
+
+.userjourneycol {
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+.innerRow {
+    width: 100%;
+    float: left;
+    padding-left: 1%;
+}
+
+.data-col {
+    width: 16%;
+    margin: 0.5% 0.5% 0.5% 0;
+    float: left;
+    border: solid 1px black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    padding: 1%;
+    font-size: 10px;
+}
+
+.stageRow {
+    width: 100%;
+    float: left;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.container {
+    position: relative;
+    width: 10%;
+    float: right;
+}
+
+.userJourneyImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color: #ccc;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    float: left;
+}
+
+.text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    float: left;
+    width: 40%;
+}
+
+.addStage {
+
+    width: 10%;
+    font-size: 12px;
+    margin: 0.5% 0.5% 0.5% 0;
+    float: left;
+    padding: 1%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.imagesUserJourney {
+    width: 100%;
+    height: 20%;
+}
+
+#no_projects_P {
+    margin-top:40px;
+    margin-left: 60px;
+
+}
+
+#myRange {
+    width:97%;
+}
