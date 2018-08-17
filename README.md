@@ -1,4 +1,5 @@
 # User journey mapping tool
-Northumbria University final year project
 
-This project was inspired from working with HMRC on my placement year. The designers had issues around using user journeys maps and how they should create them. With no one way of designers meeting their own goals of using a user journey map tool, they started to create their own versions whether this would be excel, free software or anything else. HMRC didn't want to buy expensive licences for designers to use the top range software which would allow them to create personas, user journey maps also export them to share with external stakeholders. The option to share the project with other designers was also a difficulty along with re-ranging the content layout on the user journey maps. All of these changes would take time out of the designers problem solving time.
+This is a user journey mapping application which can be used to create personas and user journey maps and keep them all in one place. The application allows users to register their own account which then they can work on different projects together with other employees at the same time.
+
+This reposoitry is a copy of the original one located on my university github private account. This copy can be used to make any changes to the design and improve the build process of the application.
